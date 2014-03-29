@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
     public void timeSplash() {
         if(true){
             Intent intent = new Intent();
-            intent.setClass(MainActivity.this, QuestionActivity_.class);
+//            intent.setClass(MainActivity.this, QuestionActivity_.class);
             startActivity(intent);
             finish();
         }
