@@ -1,34 +1,24 @@
 package com.ags.ocap.app;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class MainActivity extends ActionBarActivity {
+public class Pesquisa extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pesquisa);
     }
 
-    public void timeSplash() {
-        if(true){
-            Intent intent = new Intent();
-            intent.setClass(MainActivity.this, QuestionActivity_.class);
-            startActivity(intent);
-            finish();
-        }
-    }
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //
 //        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.main, menu);
+//        getMenuInflater().inflate(R.menu.pesquisa, menu);
 //        return true;
 //    }
 //
